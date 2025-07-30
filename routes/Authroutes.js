@@ -3,7 +3,7 @@ const app = express()
 const router = express.Router();
 const User = require('../models/User');
 const bcrypt = require('bcrypt');
-const transporter = require('../config/emailConfig');
+const transporter = require('../config/Emailconfig');
 const sendOtpEmail = require('../utils/sendOtpEmail')
 
 // Signup
